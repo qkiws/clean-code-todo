@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.matrix-illustration {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.matrix-illustration img {
   width: 100%;
 }
-.aaa .more_inf {
+.matrix-illustration .more-info-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .aaa {
+  .matrix-illustration {
     text-align: center;
   }
 }
@@ -131,7 +131,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-list label {
   text-decoration: line-through;
   color: #888;
 }
