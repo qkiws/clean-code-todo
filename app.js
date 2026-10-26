@@ -34,11 +34,13 @@ function createTaskElement(taskText) {
 }
 
 function addTask() {
-  if (!newTaskInput.value) {
+  const taskText = newTaskInput.value.trim();
+
+  if (!taskText) {
     return;
   }
 
-  todoTaskList.appendChild(createTaskElement(newTaskInput.value));
+  todoTaskList.appendChild(createTaskElement(taskText));
   newTaskInput.value = '';
 }
 
